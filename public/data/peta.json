@@ -1,0 +1,34 @@
+{
+	"places":[
+		{
+			"lokasi": [-6.175464, 106.827120],
+			"sponsor": "National Monument", 
+			"gambar" : "images/monas.jpg", 
+			"review": "The best icon of Jakarta"
+		}, 
+		{
+			"lokasi": [-6.169972, 106.830853],
+			"sponsor": "Istiqlal Mosque", 
+			"gambar" : "images/istiqlal.jpg", 
+			"review": "the largest mosque in Southeast Asia and the third largest Sunni mosque in term of capacity."
+		}, 
+		{
+			"lokasi": [-6.169998, 106.824170],
+			"sponsor": "Merdeka Palace", 
+			"gambar" : "images/merdeka_palace.jpg", 
+			"review": "This place is super safe. It's the place where President of Indonesia works, held a meeting, held banquets for national or international events."
+		},
+		{
+			"lokasi": [-6.165027, 106.837398],
+			"sponsor": "BPS-Statistics Indonesia", 
+			"gambar" : "images/bps.jpg", 
+			"review": "The place where you can go to obtain official statistical data."
+		},
+		{
+			"lokasi": [-6.175780, 106.831591],
+			"sponsor": "Gambir Station", 
+			"gambar" : "images/gambir.jpg", 
+			"review": "Jakarta Main Train Station. The biggest train station in Indonesia."
+		}
+	]
+}
