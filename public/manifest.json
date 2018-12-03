@@ -1,0 +1,15 @@
+{
+	"short_name": "Erika's", 
+	"name" : "Erika's MWS App",
+	"icons" : [
+		{
+			"src" : "/images/blog_log-150x150.png", 
+			"sizes" : "100x100", 
+			"type" : "image/png"
+		}
+	], 
+	"start_url": "/?utm_source=homescreen", 
+	"background_color" : "#3E4EB8", 
+	"theme_color" : "#2F3BA2", 
+	"display" : "standalone"  
+}
