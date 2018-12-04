@@ -3,8 +3,23 @@
 	"name" : "Erika's MWS App",
 	"icons" : [
 		{
-			"src" : "/images/blog_log-150x150.png", 
+			"src" : "/images/blog_log-100x100.png", 
 			"sizes" : "100x100", 
+			"type" : "image/png"
+		}, 
+		{
+			"src" : "/images/blog_log-128x128.png", 
+			"sizes" : "128x128", 
+			"type" : "image/png"
+		}, 
+		{
+			"src" : "/images/blog_log-144x144.png", 
+			"sizes" : "144x144", 
+			"type" : "image/png"
+		}, 
+		{
+			"src" : "/images/blog_log-150x150.png", 
+			"sizes" : "150x150", 
 			"type" : "image/png"
 		}
 	], 

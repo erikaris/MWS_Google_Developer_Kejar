@@ -1,0 +1,98 @@
+[debug] [2018-12-04T04:17:08.168Z] ----------------------------------------------------------------------
+[debug] [2018-12-04T04:17:08.170Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-12-04T04:17:08.171Z] CLI Version:   6.1.1
+[debug] [2018-12-04T04:17:08.171Z] Platform:      linux
+[debug] [2018-12-04T04:17:08.171Z] Node Version:  v6.14.4
+[debug] [2018-12-04T04:17:08.171Z] Time:          Tue Dec 04 2018 11:17:08 GMT+0700 (WIB)
+[debug] [2018-12-04T04:17:08.171Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-04T04:17:08.184Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-04T04:17:08.184Z] > authorizing via signed-in user
+[debug] [2018-12-04T04:17:08.185Z] [iam] checking project erika-project1-61a06 for permissions ["firebase.projects.get"]
+[debug] [2018-12-04T04:17:08.187Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-04T04:17:08.187Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-12-04T04:17:10.456Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T04:17:10.466Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/erika-project1-61a06:testIamPermissions  
+
+[debug] [2018-12-04T04:17:11.797Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T04:17:11.804Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/erika-project1-61a06  
+ 
+[debug] [2018-12-04T04:17:13.374Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/erikaris/DATA/self_learning/MWS/my-mws'...
+[info] 
+[debug] [2018-12-04T04:17:13.384Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/904047445516/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-04T04:17:13.862Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2018-12-04T04:17:56.488Z] ----------------------------------------------------------------------
+[debug] [2018-12-04T04:17:56.491Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2018-12-04T04:17:56.491Z] CLI Version:   6.1.1
+[debug] [2018-12-04T04:17:56.491Z] Platform:      linux
+[debug] [2018-12-04T04:17:56.491Z] Node Version:  v6.14.4
+[debug] [2018-12-04T04:17:56.491Z] Time:          Tue Dec 04 2018 11:17:56 GMT+0700 (WIB)
+[debug] [2018-12-04T04:17:56.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-04T04:17:56.501Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-04T04:17:56.501Z] > authorizing via signed-in user
+[debug] [2018-12-04T04:17:56.502Z] [iam] checking project erika-project1-61a06 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-04T04:17:56.504Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/erika-project1-61a06:testIamPermissions  
+
+[debug] [2018-12-04T04:17:57.749Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T04:17:57.754Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/erika-project1-61a06  
+ 
+[debug] [2018-12-04T04:17:58.442Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'erika-project1-61a06'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-12-04T04:17:58.451Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/erika-project1-61a06/versions  
+
+[debug] [2018-12-04T04:18:00.739Z] <<< HTTP RESPONSE 200
+[info] i  hosting[erika-project1-61a06]: beginning deploy...
+[info] i  hosting[erika-project1-61a06]: found 33 files in public
+[debug] [2018-12-04T04:18:00.785Z] [hosting] hash cache [cHVibGlj] load error: lines is not defined
+[debug] [2018-12-04T04:18:00.839Z] [hosting] hash cache [cHVibGlj] stored for 33 files
+[debug] [2018-12-04T04:18:00.839Z] [hosting][hash queue][FINAL]
+[debug] [2018-12-04T04:18:00.839Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/erika-project1-61a06/versions/6aa814996608c93e:populateFiles  
+ <request body omitted>
+[debug] [2018-12-04T04:18:03.090Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T04:18:03.092Z] [hosting][populate queue][FINAL]
+[debug] [2018-12-04T04:18:03.093Z] [hosting] uploads queued: 0
+[debug] [2018-12-04T04:18:03.093Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[erika-project1-61a06]: file upload complete
+[debug] [2018-12-04T04:18:03.096Z] [hosting] deploy completed after 2355ms
+[debug] [2018-12-04T04:18:03.280Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "erika-project1-61a06"
+    },
+    "site": "erika-project1-61a06",
+    "version": "sites/erika-project1-61a06/versions/6aa814996608c93e"
+  }
+]
+[info] i  hosting[erika-project1-61a06]: finalizing version...
+[debug] [2018-12-04T04:18:03.283Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/erika-project1-61a06/versions/6aa814996608c93e?updateMask=status  
+
+[debug] [2018-12-04T04:18:04.860Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T04:18:04.862Z] [hosting] finalized version for erika-project1-61a06:
+[info] ✔  hosting[erika-project1-61a06]: version finalized
+[info] i  hosting[erika-project1-61a06]: releasing new version...
+[debug] [2018-12-04T04:18:04.865Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/erika-project1-61a06/releases?version_name=sites/erika-project1-61a06/versions/6aa814996608c93e  
+
+[debug] [2018-12-04T04:18:06.351Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T04:18:06.353Z] [hosting] release:
+[info] ✔  hosting[erika-project1-61a06]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/erika-project1-61a06/overview
+[info] Hosting URL: https://erika-project1-61a06.firebaseapp.com
